@@ -2,7 +2,7 @@
 Repo care contine toate proiectele ce au fost realizate la cursul de Web Development in cadrul [Hackademy](https://www.ccna.ro/).
 
 # Utilizare
-Se va descarca proiectul si se vor deschide in browser paginile intitulate ***index.html***. Toate fisierele descarcate se vor pastra in aceeasi locatie ca cea a fisierului HTML.
+Se va descarca proiectul si se vor deschide in browser paginile intitulate ***index.html*** or ***index1.html***. Toate fisierele descarcate se vor pastra in aceeasi locatie ca cea a fisierului HTML.
 
 # Detalii
 Repo-ul contine toate proiectele realizate in orele de curs, sub indrumarea mentorilor. Proiectele sunt sortate pe foldere, in functie de numarul cursului in cadrul caruia au fost realizate. <br>

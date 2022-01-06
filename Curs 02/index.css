@@ -1,0 +1,123 @@
+.cap {
+    background-color: rgba(45, 45, 116, 0.753);
+    height: 20vh;
+    width: 10%;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 7%;
+    animation-name: slideup;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.trunchi {
+    margin: auto;
+    height: 25vh;
+    width: 16vw;  
+}
+
+.brat1 {
+    background-color: rgba(48, 216, 132, 0.753);
+    height: 25vh;
+    width: 3vw;
+    display: inline-block;
+    position: relative;
+    animation-name: facumana;
+    animation-duration: 2s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    transform-origin: top right;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.brat2 {
+    background-color:rgba(48, 216, 132, 0.753);
+    height: 25vh;
+    width: 3vw;
+    display: inline-block;
+    position: relative;
+    transform-origin: top left;
+    transform: rotate(30deg)
+}
+
+.corp {
+    background-color:rgba(0, 0, 0, 0.753);
+    height: 25vh;
+    width: 9vw;
+    display: inline-block;
+    position: relative;
+}
+
+.picioare {
+    margin: auto;
+    height: 25vh;
+    width: 9vw;
+}
+
+.picior1 {
+    background-color:rgba(48, 216, 132, 0.753);
+    height: 25vh;
+    width: 4vw;
+    display: inline-block;
+    position: relative;
+    animation-name: sari1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.picior2 {
+    background-color:rgba(48, 216, 132, 0.753);
+    height: 25vh;
+    width: 4vw;
+    display: inline-block;
+    position: relative;
+    animation-name: sari2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes facumana {
+    0% {
+        transform-origin: 100% 0%;
+        transform: rotate(0deg);
+    }
+    100% {
+        transform-origin: 100% 0%;
+        transform: rotate(150deg);
+    }
+}
+
+@keyframes slideup {
+    0% {
+        margin-top: 7%;
+    }
+    100% {
+        margin-top: 4%;
+    }
+}
+
+@keyframes sari1 {
+    0% {
+        transform-origin: top right;
+        transform: rotate(0deg);
+    }
+    100% {
+        transform-origin: top right;
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes sari2 {
+    0% {
+        transform-origin: top left;
+        transform: rotate(0deg);
+    }
+    100% {
+        transform-origin: top left;
+        transform: rotate(-20deg);
+    }
+}

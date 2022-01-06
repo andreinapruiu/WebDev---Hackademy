@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ToDo Page</title>
+		<link rel="stylesheet" href="mystyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<p class="titlu">De facut</p>
+		<div class="continut">
+			<div class="inputthing">
+				<label><i class="fa fa-angle-down custom" aria-hidden="true" onclick="check()"></i></label>
+				<input class="todo" placeholder="Ce avem pe lista azi?"/>
+			</div>
+
+			<div id="id1">
+				<input id="checkbox" class="buton checkbox" type="checkbox"></input>
+				<p class="tasks">Spala vase</p>
+				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id1')"></i>
+			</div>
+
+			<div id="id2">
+				<input class="buton checkbox" type="checkbox"></input>
+				<p class="tasks">Spala haine</p>
+				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id2')"></i>
+			</div>
+
+			<div id="id3">
+				<input class="buton checkbox" type="checkbox"></input>
+				<p class="tasks">Spala orice</p>
+				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id3')"></i>
+			</div>
+
+			<footer id="footer" class="incercare">
+				<div>
+					<p class="items" id="changeable">3 itemi ramasi</p>
+				</div>
+				<div class="sort-tasks">
+					<button class="special active" onclick="change(1)">Toate</button>
+					<button class="special" onclick="change(2)">Active</button>
+					<button class="special" onclick="change(3)">Complete</button>
+				</div>
+				<div>
+					<button class="clear">Sterge facute</button>
+				</div>
+			</footer>
+		</div>
+		<script src="myscript.js"></script>
+	</body>
+</html>

@@ -1,0 +1,186 @@
+body {
+	background-color: rgba(142, 229, 255, 0.685);
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+input {
+	outline: none;
+}
+
+.titlu {
+	display: block;
+	color: rgba(54, 57, 218, 0.534);
+	font-size: 5vw;
+	text-align: center;
+}
+
+.continut {
+	margin: auto;
+	font-size: 2rem;
+	border: 1px solid rgba(128, 128, 128, 0.39);
+	box-shadow: 0 4px 8px 0 rgba(3, 40, 107, 0.2), 0 6px 20px 0 rgba(4, 17, 133, 0.19);
+	width: 35vw;
+}
+
+.inputthing {
+	padding-bottom: 1.5vh;
+}
+
+.custom {
+	color:rgba(71, 68, 68, 0.466);
+	padding-left: 0.75vw;
+}
+
+.custom:hover {
+	color: dodgerblue;
+}
+
+.custom2 {
+	color:rgba(71, 68, 68, 0.466);
+	padding-right: 2vw;
+}
+
+.custom2:hover {
+	color: dodgerblue;
+}
+
+.buton {
+	margin-left: 2vw !important;
+	height: 2vh;
+	width: 4vw;
+  	cursor: pointer;
+}
+
+.todo {
+	width: 24vw;
+	font-size: 4vh;
+	padding: 0.75vw 0.75vw 0.75vw 4px;
+	border: none;
+	background: rgba(0, 0, 0, 0.003);
+	border-bottom: 1px solid rgba(167, 163, 163, 0.514);
+}
+
+.tasks {
+	font-size: 2.5vh;
+	display: inline-block;
+	width: 60%;
+	padding-bottom: 1.5vh;
+	border-bottom: 1px dashed rgba(167, 163, 163, 0.514);
+}
+
+.incercare {
+	display: flex;
+	padding-left: 0.75vw;
+	padding-right: 0.75vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.items {
+	font-size: 2vh;
+	color: grey;
+}
+
+.sort-tasks {
+	align-self: center;
+}
+
+.special {
+	max-width: 100%;
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: hidden;
+	color: black;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.active {
+	border: solid rgb(38, 179, 235);
+}
+
+.special:hover {
+	border: solid rgb(82, 199, 245);
+}
+
+.clear {
+	height: 2.75vh;
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: hidden;
+	color: black;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.clear:hover {
+	border-bottom: solid black;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	color: rgba(117, 21, 21, 0.281);
+ }
+ :-moz-placeholder {
+	font-style: italic;  
+	color: rgba(117, 21, 21, 0.281);
+ }
+ ::-moz-placeholder {
+	font-style: italic;  
+	color: rgba(117, 21, 21, 0.281);
+ }
+ :-ms-input-placeholder {  
+	font-style: italic; 
+	color: rgba(117, 21, 21, 0.281);
+ }
+
+.checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 2px solid #268fd4;
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+    transition: 0.5s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.checkbox:checked {
+    border-color: #268fd4;
+    background-color: #268fd4;
+}
+
+
+.checkbox:checked:before {
+   position: absolute;
+   left: 2px;
+   top: -4px;
+   display: block;
+   content: '\2713';
+   text-align: center;
+   color: #FFF;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: 800;
+}
+
+
+.checkbox:hover {
+   opacity: 1.0;
+   transform: scale(1.05);
+}
+
+.done {
+	text-decoration: line-through;
+	color: grey;
+	transition: 0.5s ease;
+}

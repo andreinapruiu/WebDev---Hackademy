@@ -16,4 +16,5 @@ Repo-ul contine toate proiectele realizate in orele de curs, sub indrumarea ment
 
 ### De facut
 > Vor fi adaugate pe parcurs si proiectele realizate de mentori, pentru o comparare mai riguroasa<br>
-> Vor fi realizate Github Pages pentru fiecare dintre proiecte pentru a se putea vizualiza in browser fara a mai fi nevoie sa fie descarcate si apoi rulate pe masina
+> Vor fi realizate Github Pages pentru fiecare dintre proiecte pentru a se putea vizualiza in browser fara a mai fi nevoie sa fie descarcate si apoi rulate pe masina<br>
+> Ultimul proiect va fi imbunatatit pe cat posibil

@@ -15,6 +15,7 @@ input {
 }
 
 .continut {
+	border-radius: 20px;
 	margin: auto;
 	font-size: 2rem;
 	border: 1px solid rgba(128, 128, 128, 0.39);
@@ -183,4 +184,15 @@ input {
 	text-decoration: line-through;
 	color: grey;
 	transition: 0.5s ease;
+}
+
+.completat {
+	text-decoration: line-through;
+	color: grey;
+	font-size: 2.5vh;
+	transition: 0.5 ease;
+}
+
+textarea {
+	resize: none;
 }

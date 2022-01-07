@@ -10,25 +10,27 @@
 		<div class="continut">
 			<div class="inputthing">
 				<label><i class="fa fa-angle-down custom" aria-hidden="true" onclick="check()"></i></label>
-				<input class="todo" placeholder="Ce avem pe lista azi?"/>
+				<input id="inputthing" class="todo" placeholder="Ce avem pe lista azi?"/>
 			</div>
 
-			<div id="id1">
-				<input id="checkbox" class="buton checkbox" type="checkbox"></input>
-				<p class="tasks">Spala vase</p>
-				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id1')"></i>
-			</div>
+			<div id="justtasks">
+				<div id="id1">
+					<input class="buton checkbox" type="checkbox" onchange="one_check()"></input>
+					<p id="text1" class="tasks" ondblclick="change_task('text1')">Spala vase</p>
+					<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id1')"></i>
+				</div>
+			
+				<div id="id2">
+					<input class="buton checkbox" type="checkbox" onchange="one_check()"></input>
+					<p id="text2" class="tasks" ondblclick="change_task('text2')">Spala haine</p>
+					<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id2')"></i>
+				</div>
 
-			<div id="id2">
-				<input class="buton checkbox" type="checkbox"></input>
-				<p class="tasks">Spala haine</p>
-				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id2')"></i>
-			</div>
-
-			<div id="id3">
-				<input class="buton checkbox" type="checkbox"></input>
-				<p class="tasks">Spala orice</p>
-				<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id3')"></i>
+				<div id="id3">
+					<input class="buton checkbox" type="checkbox" onchange="one_check()"></input>
+					<p id="text3" class="tasks" ondblclick="change_task('text3')">Spala orice</p>
+					<i class="fa fa-times custom2" aria-hidden="true" onclick="deleteTask('id3')"></i>
+				</div>
 			</div>
 
 			<footer id="footer" class="incercare">
@@ -36,12 +38,12 @@
 					<p class="items" id="changeable">3 itemi ramasi</p>
 				</div>
 				<div class="sort-tasks">
-					<button class="special active" onclick="change(1)">Toate</button>
-					<button class="special" onclick="change(2)">Active</button>
-					<button class="special" onclick="change(3)">Complete</button>
+					<button class="special active" onclick="change(1); show_all()">Toate</button>
+					<button class="special" onclick="change(2); show_active()">Active</button>
+					<button class="special" onclick="change(3); show_complete()">Complete</button>
 				</div>
 				<div>
-					<button class="clear">Sterge facute</button>
+					<button class="clear" onclick="delete_checked()">Sterge facute</button>
 				</div>
 			</footer>
 		</div>

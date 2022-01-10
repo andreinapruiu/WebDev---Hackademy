@@ -1,3 +1,28 @@
+function store()
+{
+	var ceva = document.getElementById("justtasks")
+	window.localStorage.setItem('tot', ceva.outerHTML)
+}
+
+function restore()
+{
+	var ceva = document.getElementById("justtasks")
+
+	ceva.outerHTML = window.localStorage.getItem('tot')
+
+	var tasks = document.getElementsByClassName("tasks");
+	var nr = tasks.length
+	var checkboxes = document.getElementsByClassName("buton checkbox")
+
+	for (let i = 0; i < nr; i++) {
+		if (tasks[i].classList.contains('completat') == true) {
+			checkboxes[i].checked = true
+		}
+	}
+}
+
+restore()
+
 function items()
 {
 	var itemsLeft = document.getElementsByClassName('tasks').length
@@ -30,6 +55,8 @@ function items()
 			document.getElementsByClassName('items')[0].innerHTML = '1 item ramas'
 		document.getElementsByClassName('items')[0].innerHTML = itemsLeft + ' itemi ramasi'
 	}
+
+	store()
 }
 
 items()
@@ -50,6 +77,8 @@ function deleteTask(id)
 	bye.remove()
 
 	items()
+
+	store()
 }
 
 function delete_checked()
@@ -58,11 +87,12 @@ function delete_checked()
 
 	var nr = document.getElementsByClassName("buton checkbox").length
 
-	for (let i = 0; i < nr; i++) {
-		if (checkboxes[i].checked == true) {
-			deleteTask(checkboxes[i].parentNode.id)
-			i--
-		}
+	for (let i = 0; i <= nr; i++) {
+		if (checkboxes[i])
+			if (checkboxes[i].checked == true) {
+				deleteTask(checkboxes[i].parentNode.id)
+				i--
+			}
 	}
 }
 
@@ -157,19 +187,25 @@ function one_check()
 	items()
 }
 
-// function change_task(id)
-// {
-// 	var current = document.getElementById(id)
-// 	current.innerHTML = '<textarea class="form-control" id="newcont">'+current.innerText+'</textarea>'
-// 	var newcont = document.getElementById("newcont")
+function change_task(id)
+{
+	var salut = document.getElementById(id)
+	salut.contentEditable = true
 
-// 	newcont.focus(function() {
-// 		console.log('in');
-// 	}).blur(function() {
-// 		var newcont1 = newcont.val()
-// 		current.innerHTML = newcont1
-// 	})
-// }
+	salut.onkeydown = function(event) { // daca se apasa enter, se opreste editarea taskului
+		if (event.keyCode == 13) 
+			salut.contentEditable = false
+	}
+
+	var ignoreClickOnMeElement = document.getElementById(id);
+
+	document.addEventListener('click', function(event) { // daca se apasa in afara taskului, se opreste editarea acestuia
+		var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
+		if (!isClickInsideElement) {
+			salut.contentEditable = false
+		}
+	});
+}
 
 function addTask(text)
 {

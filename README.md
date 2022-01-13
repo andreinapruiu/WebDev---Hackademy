@@ -3,6 +3,14 @@ Repo care contine toate proiectele ce au fost realizate la cursul de Web Develop
 
 # Utilizare
 Se va descarca proiectul si se vor deschide in browser paginile intitulate ***index.html*** or ***index1.html***. Toate fisierele descarcate se vor pastra in aceeasi locatie ca cea a fisierului HTML.
+## Update
+Au fost create pagini pentru toate proiectele
+> [Curs01](https://andreinapruiu.github.io/curs01.github.io/)<br>
+> [Curs02](https://andreinapruiu.github.io/curs02.github.io/)<br>
+> [Curs03](https://andreinapruiu.github.io/curs01.github.io/)<br>
+> [Curs04](https://andreinapruiu.github.io/curs01.github.io/)<br>
+> [Curs05](https://andreinapruiu.github.io/curs01.github.io/)<br>
+> [Curs06](https://andreinapruiu.github.io/curs01.github.io/)
 
 # Detalii
 Repo-ul contine toate proiectele realizate in orele de curs, sub indrumarea mentorilor. Proiectele sunt sortate pe foldere, in functie de numarul cursului in cadrul caruia au fost realizate. <br>

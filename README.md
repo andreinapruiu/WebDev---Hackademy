@@ -10,7 +10,7 @@ Au fost create pagini pentru toate proiectele
 > [Curs03](https://andreinapruiu.github.io/curs01.github.io/)<br>
 > [Curs04](https://andreinapruiu.github.io/curs01.github.io/)<br>
 > [Curs05](https://andreinapruiu.github.io/curs01.github.io/)<br>
-> [Curs06](https://andreinapruiu.github.io/curs01.github.io/)
+> [Curs06](https://andreinapruiu.github.io/todo-project.github.io/)
 
 # Detalii
 Repo-ul contine toate proiectele realizate in orele de curs, sub indrumarea mentorilor. Proiectele sunt sortate pe foldere, in functie de numarul cursului in cadrul caruia au fost realizate. <br>

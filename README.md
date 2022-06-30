@@ -1,10 +1,13 @@
 # **WebDev---Hackademy**
-Repo care contine toate proiectele ce au fost realizate la cursul de Web Development in cadrul [Hackademy](https://www.ccna.ro/).
+Repo containing every project made during the Web Development course of [Hackademy](https://www.ccna.ro/).
 
-# Utilizare
-Se va descarca proiectul si se vor deschide in browser paginile intitulate ***index.html*** or ***index1.html***. Toate fisierele descarcate se vor pastra in aceeasi locatie ca cea a fisierului HTML.
+# Use
+- Download the project
+- Open in a browser the pages named ***index.html*** or ***index1.html***
+- All the files should be kept in the same directory as the HTML file
+
 ## Update
-Au fost create pagini pentru toate proiectele
+Pages for all the projects were created
 > [Curs01](https://andreinapruiu.github.io/curs01.github.io/)<br>
 > [Curs02](https://andreinapruiu.github.io/curs02.github.io/)<br>
 > [Curs03](https://andreinapruiu.github.io/curs03.github.io/)<br>
@@ -12,15 +15,15 @@ Au fost create pagini pentru toate proiectele
 > [Curs05](https://andreinapruiu.github.io/curs05.github.io/)<br>
 > [Curs06](https://andreinapruiu.github.io/todo-project.github.io/)
 
-# Detalii
-Repo-ul contine toate proiectele realizate in orele de curs, sub indrumarea mentorilor. Proiectele sunt sortate pe foldere, in functie de numarul cursului in cadrul caruia au fost realizate. <br>
-> Pentru ultimul proiect, ***Curs 06***, chiar daca nu pare ultimul, acesta a fost realizat pe mai multe sedinte, concluzionand toate cunostintele acumulate
+# Details
+The repo contains all the projects made during course hours, supervised by the mentors. The projects are sorted in folders, based on the number of the course in which they were done. <br>
+> For the last project, ***Curs 06**, even though it appears as being the last one, it was done during more courses, concluding the knowledge gained.
 
-## Cunostinte evaluate
+## Evaluated knowledge
 1. HTML
 2. JS
 3. CSS
-4. Googling(cautarea de solutii pe internet si abordarea acestora alaturi de mentori)
+4. Googling(searching solution on the internet)
 
-### De facut
-> Vor fi adaugate pe parcurs si proiectele realizate de mentori, pentru o comparare mai riguroasa<br>
+### To Do
+> The projects done by the mentors will also be uploaded, for a better comparison<br>
